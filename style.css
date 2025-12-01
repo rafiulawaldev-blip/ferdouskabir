@@ -1,0 +1,605 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/bg.png);
+    background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+    
+}
+
+.jumbotron .container h1{
+ font-family: Poppins;
+    font-size: 40px;
+    color: #16191E;
+    letter-spacing: 0;
+    line-height: 35px;
+    font-weight: 700;
+    position: relative;
+    
+    
+}
+
+.jumbotron .container h2{
+ font-family: Poppins;
+    font-size: 40px;
+    color: #16191E;
+    letter-spacing: 0;
+    line-height: 35px;
+    font-weight: 700;
+    position: relative;      
+}
+
+      
+
+.jumbotron .container h1:before{
+  content: attr(data-content);
+    position: absolute;
+    color: #16191E;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 50%;
+    background-color: #7896FF;
+
+    
+}
+
+.jumbotron .container h2:before{
+  content: attr(data-content);
+    position: absolute;
+    color: #16191E;
+    top: 0px;
+    left: 1px;
+    width: 75%;
+    height: 50%;
+    background-color: #FF7A35;
+    
+}
+
+
+
+.jumbotron .container p{
+margin-top: 25px;    
+ font-family: Poppins;
+    font-size: 15px;
+color: ;
+letter-spacing: 0;
+line-height: 28px;
+   
+    
+}
+
+.jumbotron .container .row .col img {
+    margin-bottom: 150px;
+    
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: Poppins;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+
+.item1{
+    grid-column: span 1;
+    grid-row: span 2;
+    height: 600px;
+    width: 458px;
+    margin-right: 20px;
+    background-image: linear-gradient(-134deg, #3BB6FF 0%, #1F33FF 100%);
+    border-radius: 4px;
+}
+
+.item1 .content {
+    
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-image: url(img/2pay@2x.png);
+    background-position: 110px 250px ;
+    height: 550px;
+}
+
+.item1 .content .tag {
+    
+    background-color: rgba(255,255,255, .3);
+    border-radius: 4px;
+    width: 76px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.item1 .content h1 {
+    font-weight: 600;
+}
+
+.item1 .content .details {
+    opacity: 0.8;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 300;
+    
+}
+
+.item1 .content .btn {
+   color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 18px;
+    
+}
+
+
+
+
+.item2{
+    grid-column: span 2;
+    grid-row: span 1;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    background-image: linear-gradient(-134deg, #D6B802 0%, #FF7836 100%);
+    border-radius: 4px;
+}
+
+.item2 .content {
+    
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #fff;
+    background-image: url(img/LSTN%20Podcast@2x.png);
+    background-position: 390px 0px; ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    
+}
+
+
+.item2 .content .tag {
+    
+    background-color: rgba(255,255,255, .3);
+    border-radius: 4px;
+    width: 76px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.item2 .content h1 {
+    font-weight: 600;
+}
+
+.item2 .content .details {
+    opacity: 0.8;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 300;
+    
+}
+
+.item2 .content .btn {
+   color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 18px;
+    
+}
+
+
+.item3{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: auto;
+    width: 322px;
+    margin-right: 20px;
+    border-radius: 4px;
+    background-image: linear-gradient(-136deg, #2DD6C3 0%, #3EF3CF 100%);
+    border-radius: 4px;
+}
+.item3 .content {
+    
+    padding-top: 105px;
+    padding-left: 20px;
+    color: #fff;
+    background-image: url(img/Cherry%20Tree@2x.png);
+    background-position: center;
+    background-size: 20%;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    
+}
+
+.item3 .content .tag {
+    
+    background-color: rgba(255,255,255, .3);
+    border-radius: 4px;
+    width: 76px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.item3 .content h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.item3 .content h1 {
+    font-weight: 600;
+}
+
+.item3 .content .details {
+    opacity: 0.8;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 300;
+    
+}
+
+.item3 .content .btn {
+   color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+
+
+
+.item4{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: auto;
+    width: 322px;
+    border-radius: 4px;
+    background-image: linear-gradient(-134deg, #0BDAFF 0%, #7036FF 100%);
+    
+}
+.item4 .content {
+    
+    padding-top: 105px;
+    padding-left: 20px;
+    color: #fff;
+    background-image: url(img/Project%20Board@2x.png);
+    background-position: center;
+    background-size: 20%;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    
+}
+
+
+.item4 .content .tag {
+    
+    background-color: rgba(255,255,255, .3);
+    border-radius: 4px;
+    width: 76px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.item4 .content h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.item4 .content h1 {
+    font-weight: 600;
+}
+
+.item4 .content .details {
+    opacity: 0.8;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 300;
+    
+}
+
+.item4 .content .btn {
+   color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.item4 .content .btn:hover {
+   color: antiquewhite;
+    
+}
+
+.item3 .content .btn:hover {
+   color: antiquewhite;
+    
+}
+
+.item2 .content .btn:hover {
+   color: antiquewhite;
+    
+}
+
+.item1 .content .btn:hover {
+   color: antiquewhite;
+    
+}
+
+/*Links CSS*/
+
+.links .container{
+     width: 100%;
+     text-align: center;
+    margin-bottom: 100px;
+    
+
+}
+
+
+.links .container ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 2px auto;
+    line-height: 2.6;
+    padding-left: 65px;
+}
+
+
+.links .container li{
+    
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.links .container li a{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    color: #16191E;
+    letter-spacing: 0;
+    padding-right: 60px;
+    	
+    
+}
+
+.links .container li a:hover{
+    
+    color: #3BB6FF;
+    letter-spacing: 0;
+    	
+    
+}
+
+
+.contact .container {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.contact .container .title h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 34px;
+    color: #16191E;
+    letter-spacing: 0;
+}
+
+.contact .container .link a {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3497FF;
+    letter-spacing: 0;
+    
+}
+
+.contact .container .link a:hover {
+    color: #3C8AFF;
+   
+    
+}
+
+
+
+@media only screen and (max-width: 1460px) {
+   .jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5em inherit;
+    min-height: 500px;
+    } 
+    
+    .jumbotron .container .row .col img {
+    margin-bottom: 110px;
+    
+}    
+        
+}
+
+@media only screen and (min-width: 1600px) {
+   .jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/bg.png);
+    background-position: center!important;   
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    } 
+    
+    .jumbotron .container .row .col img {
+    margin-bottom: 180px;
+        
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+}
+
+/*// SM Small devices (landscape phones, 375px and up)*/
+@media only screen and (min-width: 375px) and (max-width: 1100px) { 
+    
+
+    
+    
+    .jumbotron .container h1{
+    font-size: 26px;
+    
+    
+}
+
+.jumbotron .container h2{
+    font-size: 26px;
+            
+}
+    .jumbotron .container p{
+
+        font-size: 14px;
+    
+}
+    
+    .grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 50px;
+    margin-top: 30px;    
+    
+}
+    
+    
+    .item1{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 500px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 0%; 
+
+       
+}
+
+.item1 .content {
+    
+    margin-left: 20px;
+    color: #fff;
+    background-size: 70%;
+    background-position: 80px 228px ;
+    height: 450px;
+}
+    
+    
+   .item2{
+    grid-column: span 3;
+    grid-row: span 1;
+    height: 500px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 0%;      
+}
+
+.item2 .content {
+    margin-left: 20px;
+    background-position: 80px 224px; ;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 450px;
+    
+}
+    
+.item3{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: auto;
+    width: auto;
+    margin-right: 0%;
+    margin-bottom:20px;
+
+}
+    
+    
+    .item3 .content {
+    
+    background-size: 16%;
+    background-position: 20px 20px;
+    
+    
+}
+    
+    
+    .item4{
+    grid-column: span 3;
+    grid-row: span 1;
+    height: 280px;
+    width: auto;
+    margin-right: 0%;    
+    
+    
+    
+}
+.item4 .content {
+    
+    background-size: 16%;
+    background-position: 20px 20px;
+    
+}
+    
+    .contact .container .title h1 {
+    font-size: 26px !important;
+
+}
+
+.contact .container .link a {
+    font-size: 20px;
+    
+    
+}
+ .contact .container {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}   
+}
+
+// MD Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+}
+
+// LG Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// XL Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+@media (min-width: 576px) { ... }
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) { ... }
+@media (min-width: 1200px) { ... }
+
